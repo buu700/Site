@@ -25,26 +25,26 @@ def html(soup):
 	return html_minify(string.replace(soup.prettify(), '\\n', '<br>'))
 
 
-home = BeautifulSoup(open('template.html', 'r').read())
+home = BeautifulSoup(open('template.txt', 'r').read())
 homeout = open('index.html', 'w')
 
-videos = BeautifulSoup(open('template.html', 'r').read())
+videos = BeautifulSoup(open('template.txt', 'r').read())
 videosout = open('videos.html', 'w')
 videosframe = BeautifulSoup(curl('http://www.youtube.com/user/heardmagazine/videos'))
 #videosframe = BeautifulSoup(curl('http://www.youtube.com/user/skymilesthemovement/videos'))
 videosframeout = open('youtube.html', 'w')
 
-photos = BeautifulSoup(open('template.html', 'r').read())
+photos = BeautifulSoup(open('template.txt', 'r').read())
 photosout = open('photos.html', 'w')
 
-sky = BeautifulSoup(open('template.html', 'r').read())
+sky = BeautifulSoup(open('template.txt', 'r').read())
 skyout = open('sky.html', 'w')
 
-carpet = BeautifulSoup(open('template.html', 'r').read())
+carpet = BeautifulSoup(open('template.txt', 'r').read())
 carpetin = BeautifulSoup(open('carpet.txt', 'r').read())
 carpetout = open('carpet.html', 'w')
 
-community = BeautifulSoup(open('template.html', 'r').read())
+community = BeautifulSoup(open('template.txt', 'r').read())
 communityin = BeautifulSoup(open('community.txt', 'r').read())
 communityout = open('community.html', 'w')
 
