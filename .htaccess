@@ -1,2 +1,2 @@
 Options +MultiViews
-AddHandler cgi-script .py
+AddHandler cgi-script .sh
