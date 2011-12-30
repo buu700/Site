@@ -41,9 +41,11 @@ sky = BeautifulSoup(open('template.html', 'r').read())
 skyout = open('sky.html', 'w')
 
 carpet = BeautifulSoup(open('template.html', 'r').read())
+carpetin = BeautifulSoup(open('carpet.txt', 'r').read())
 carpetout = open('carpet.html', 'w')
 
 community = BeautifulSoup(open('template.html', 'r').read())
+communityin = BeautifulSoup(open('community.txt', 'r').read())
 communityout = open('community.html', 'w')
 
 
@@ -139,6 +141,7 @@ videosframe.style.replaceWith('''
 
 
 
+
 curl('http://wordpress.heardmag.com/wordpress/wp-content/plugins/fotobook/cron.php?secret=1cfa130f1bdf&update')
 
 photos.find(attrs={'id' : 'content'}).replaceWith('''
@@ -152,18 +155,30 @@ photos.find(attrs={'id' : 'content'}).replaceWith('''
 
 
 
-
-
-
-
-
-
-
-
 sky.find(attrs={'id' : 'content'}).replaceWith('''
 	<div id="content" class="content">
 		<iframe
 			src="http://skymiles.tumblr.com/" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width: 100%; height: 860px; border-radius:4px;'" allowTransparency="true"></iframe>
+	</div>
+''')
+
+
+
+
+
+carpet.find(attrs={'id' : 'content'}).replaceWith('''
+	<div id="content" class="content">
+		''' + carpetin + '''
+	</div>
+''')
+
+
+
+
+
+community.find(attrs={'id' : 'content'}).replaceWith('''
+	<div id="content" class="content">
+		''' + communityin + '''
 	</div>
 ''')
 
