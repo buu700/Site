@@ -41,11 +41,11 @@ sky = BeautifulSoup(open('template.txt', 'r').read())
 skyout = open('sky.html', 'w')
 
 carpet = BeautifulSoup(open('template.txt', 'r').read())
-carpetin = BeautifulSoup(open('carpet.txt', 'r').read())
+carpetin = open('carpet.txt', 'r').read()
 carpetout = open('carpet.html', 'w')
 
 community = BeautifulSoup(open('template.txt', 'r').read())
-communityin = BeautifulSoup(open('community.txt', 'r').read())
+communityin = open('community.txt', 'r').read()
 communityout = open('community.html', 'w')
 
 
