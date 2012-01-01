@@ -1,0 +1,115 @@
+#fotobook-main a {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#fotobook-main {
+	font-size: 11px;
+	width: 100%;
+	border-spacing: 0;
+}
+
+#fotobook-main img {
+	border: 0;
+}
+
+#fotobook-main small {
+	font-size: 10px;
+}
+
+#fotobook-main td, #fotobook-main th {
+	border-bottom: solid 1px #D8DFEA;	
+	margin: 0px;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+#fotobook-main th {
+	text-align: center;
+	width: 130px;
+}
+
+#fotobook-album {
+	margin: 0px;
+	padding: 5px;
+	width: 100%;
+	border-bottom: solid 1px #D8DFEA;
+}
+
+#fotobook-album td {
+	width: 150px;
+	padding: 3px 2px;
+	text-align: center;
+	vertical-align: middle; }
+
+#fotobook-album img {
+	background: white;
+	padding: 6px;
+	border: solid 1px #ccc; }
+
+#fotobook-album img:hover {
+	border: solid 1px #3B5998; }
+	
+#fotobook-info {
+	font-size: 10px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+#fotobook-info th, #fotobook-info td {
+	padding: 3px;
+}
+
+#fotobook-info th {
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.fotobook-subheader {
+	text-align: right;
+	font-size: 11px;
+	margin: 0px;
+	padding: 3px 10px 4px;
+	border-bottom: solid 1px #D8DFEA;
+}
+
+.fotobook-subheader .main {
+	float: left;
+	text-align: left;
+}
+
+.fotobook-subheader .pagination {
+	padding-left: 4px;
+	text-align: right; 
+}
+
+.fotobook-subheader .pagination b {
+	padding: 2px;
+	font-style: normal;
+	font-weight: bold;
+	color: #3B5998;
+	border-bottom: solid 2px;
+}
+
+.fotobook-subheader .pagination a {
+	font-weight: normal;
+	margin: 0px;
+	padding: 3px 3px; 
+}
+
+.fotobook-subheader .pagination a:hover {
+	color: white;
+	margin: 0px;
+	padding: 3px 3px;
+	background: #3B5998; 
+	text-decoration: none;
+}
+
+.fotobook-subheader-bottom {
+	border-bottom: 0;
+}
+
+.fotobook-subheader-bottom .pagination b {
+	border-bottom: 0;
+	border-top: solid 2px;
+}
