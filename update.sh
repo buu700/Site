@@ -8,4 +8,4 @@ git commit -a -m update
 git pull
 git push
 python make.py
-echo '<a href="http://heardmag.com/">Heard Magazine</a>'
+echo '<br><br><br><a href="http://heardmag.com/">Heard Magazine</a>'
