@@ -30,8 +30,8 @@ homeout = open('index.html', 'w')
 
 videos = BeautifulSoup(open('template.txt', 'r').read())
 videosout = open('videos.html', 'w')
-#videosframe = BeautifulSoup(curl('http://www.youtube.com/user/heardmagazine/videos'))
-videosframe = BeautifulSoup(curl('http://www.youtube.com/user/skymilesthemovement/videos'))
+videosframe = BeautifulSoup(curl('http://www.youtube.com/user/raywilliamjohnson/videos'))
+#videosframe = BeautifulSoup(curl('http://www.youtube.com/user/skymilesthemovement/videos'))
 videosframeout = open('youtube.html', 'w')
 
 photos = BeautifulSoup(open('template.txt', 'r').read())
