@@ -72,11 +72,16 @@ for link in links:
 	except:
 		message = ''
 	
+	try:
+		description = link['description']
+	except:
+		description = message
+	
 	linkshtml += '''
 		<div class="''' + ('span4' if linkshtmlcount == 2 else 'span5') + '''">
 			<h5><a href="''' + link['link'] + '''" title="''' + message + '''">''' + link['name'] + '''</a></h5>
 			<br>
-			<p>''' + link['description'] + '''</p>
+			<p>''' + description + '''</p>
 		</div>
 	'''
 	
