@@ -14,6 +14,8 @@ Photos: Photos on Facebook + WordPress with [this plugin](http://tintinnabuleur.
 
 Sky's World: Tumblr
 
+Sidebar Micro-updates: Twitter
+
 Else: `$name`.txt
 
 ---
