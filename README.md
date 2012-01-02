@@ -2,15 +2,15 @@ When my cousin asked me to set up a Web site for her company, with the requireme
 
 So, I thought about it, when I realised: what's the most user-friendly and feature-packed content management system that everyone already knows? The Graph API made it trivial to set up, and after writing the initial code, I can be guaranteed that any further assistance or instruction on my part won't be necessary for anything menial.
 
-If I had more time to work on this, for sure there's a lot I'd work on in the implementation, but what's here now seems to do exactly what it was meant to do reliably; only time will prove the effectiveness of such an approach.
+If I had more time to work on this, for sure there's a lot I'd work on in the implementation, but what's here now seems to do exactly what it was meant to do reliably (though I'll gladly accept commits!); only time will prove the effectiveness of such an approach.
 
 ---
 
-Home: Name, Description, and Links on Facebook
+Home: Name, Description, and Links on Facebook Page
 
 Videos: YouTube
 
-Photos: Photos on Facebook + WordPress with [this plugin](http://tintinnabuleur.bcbc.co.uk/2010/02/15/more-fotobook-changes/) and `wordpress.css` stylesheet
+Photos: Photos on Facebook Page + WordPress with [this plugin](http://tintinnabuleur.bcbc.co.uk/2010/02/15/more-fotobook-changes/) and `wordpress.css` stylesheet
 
 Sky's World: Tumblr
 
