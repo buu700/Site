@@ -102,7 +102,7 @@ home.find(attrs={'id' : 'content'}).replaceWith('''
 videos.find(attrs={'id' : 'content'}).replaceWith('''
 	<div id="content" class="content">
 		<iframe
-			src="youtube.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width: 100%; height: 860px;" allowTransparency="true"></iframe>
+			src="youtube.html" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width: 100%; height: 860px;" allowTransparency="true"></iframe>
 	</div>
 ''')
 
@@ -158,7 +158,7 @@ photos.find(attrs={'id' : 'content'}).replaceWith('''
 sky.find(attrs={'id' : 'content'}).replaceWith('''
 	<div id="content" class="content">
 		<iframe
-			src="http://skymiles.tumblr.com/" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width: 100%; height: 860px; border-radius:4px;'" allowTransparency="true"></iframe>
+			src="http://skymiles3.tumblr.com/" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width: 100%; height: 860px; border-radius:4px;'" allowTransparency="true"></iframe>
 	</div>
 ''')
 
