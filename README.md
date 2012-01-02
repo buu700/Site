@@ -6,13 +6,13 @@ If I had more time to work on this, for sure there's a lot I'd work on in the im
 
 ---
 
-Home: Name, Description, and Links on Facebook Page
+Home (About/News): Name, Description, and Links on Facebook Page
 
 Videos: YouTube
 
 Photos: Photos on Facebook Page + WordPress with [this plugin](http://tintinnabuleur.bcbc.co.uk/2010/02/15/more-fotobook-changes/) and `wordpress.css` stylesheet
 
-Sky's World: Tumblr
+Microblogging: Tumblr
 
 Sidebar Tweets: Twitter
 
