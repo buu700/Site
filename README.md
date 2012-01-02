@@ -14,7 +14,7 @@ Photos: Photos on Facebook + WordPress with [this plugin](http://tintinnabuleur.
 
 Sky's World: Tumblr
 
-Else: $name.txt
+Else: `$name`.txt
 
 ---
 
@@ -30,7 +30,7 @@ How to set up Facebook CMS:
 
 * Configure WordPress and update WordPress domain in `make.py`
 
-Now, any Facebook user with admin rights to the Page will be able to modify the site; just navigate to http://$domain/update to push any changes live.
+Now, any Facebook user with admin rights to the Page will be able to modify the site; just navigate to http://`$domain`/update to push any changes live.
 
 Bonus: if you fork this repo and configure your Web server user's public key with GitHub (`www-data` on my Ubuntu/Apache machine), site backups are automatically thrown into revision control.
 
