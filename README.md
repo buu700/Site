@@ -1,6 +1,6 @@
 When my cousin asked me to set up a Web site for her company, with the requirement that she be able to easily and frequently add content, I knew that giving her write access to a bunch of HTML files wouldn't cut it. While tried-and-true WordPress could be a solution, it would constrain the frontend design a bit, and more importantly the admin dashboard could be somewhat overwhelming for someone who only wants to make frequent micro-updates of varied content.
 
-So, I thought about it, when I realised: what's the content management system that everyone already knows? The Graph API made it trivial to set up, and after writing the initial code, I can be guaranteed that any further assistance or instruction on my part won't be necessary for anything menial.
+So, I thought about it, when I realised: what's the most user-friendly and feature-packed content management system that everyone already knows? The Graph API made it trivial to set up, and after writing the initial code, I can be guaranteed that any further assistance or instruction on my part won't be necessary for anything menial.
 
 If I had more time to work on this, for sure there's a lot I'd work on in the implementation, but what's here now seems to do exactly what it was meant to do reliably; only time will prove the effectiveness of such an approach.
 
