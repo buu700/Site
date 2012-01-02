@@ -10,7 +10,7 @@ Home (About/News): Name, Description, and Links on Facebook Page
 
 Videos: YouTube
 
-Photos: Photos on Facebook Page + WordPress with [this plugin](http://tintinnabuleur.bcbc.co.uk/2010/02/15/more-fotobook-changes/) and `wordpress.css` stylesheet
+Photos: Photos on Facebook Page + WordPress with [this plugin](http://tintinnabuleur.bcbc.co.uk/2010/02/15/more-fotobook-changes/) (`fotobook.zip`) and `wordpress.css` stylesheet
 
 Microblogging: Tumblr
 
