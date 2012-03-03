@@ -1,4 +1,4 @@
-When my cousin asked me to set up a Web site for her company, with the requirement that she be able to easily and frequently add content, I knew that giving her write access to a bunch of HTML files wouldn't cut it. While tried-and-true WordPress could be a solution, it would constrain the frontend design a bit, and more importantly the admin dashboard can be somewhat overwhelming for someone who only wants to make frequent micro-updates of varied content.
+When my cousin asked me to set up a Web site for her company, with the requirement that she be able to easily and frequently add content, I knew that giving her write access to a bunch of HTML files wouldn't cut it. While tried-and-true WordPress could be a solution, the admin dashboard can be somewhat overwhelming for someone who only wants to make frequent micro-updates of varied content.
 
 So, I thought about it, when I realised: what's the most user-friendly and feature-packed content management system that everyone already knows? The Graph API made it trivial to set up, and after writing the initial code, I can be guaranteed that any further assistance or instruction on my part won't be necessary for anything menial.
 
@@ -38,4 +38,4 @@ Bonus: if you fork this repo and configure your Web server user's public key wit
 
 ---
 
-Finally, [live demo](http://heardmag.com/) (disclaimer: as of 2012-01-01, the content is all placeholder and largely unrelated to the company).
+Finally, [live demo](http://heardmag.com/) (disclaimer: as of 2012-01-01, the content is all placeholder and largely unrelated to the company). Edit: Live demo down for now.
