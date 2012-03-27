@@ -35,7 +35,3 @@ How to set up Facebook CMS:
 Now, any Facebook user with admin rights to the Page will be able to modify the site; just navigate to http://`$domain`/update to push any changes live.
 
 Bonus: if you fork this repo and configure your Web server user's public key with GitHub (`www-data` on my Ubuntu/Apache machine), site backups are automatically thrown into revision control.
-
----
-
-Finally, [live demo](http://heardmag.com/) (disclaimer: as of 2012-01-01, the content is all placeholder and largely unrelated to the company). Edit: Live demo down for now.
