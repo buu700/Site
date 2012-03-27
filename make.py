@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
@@ -8,9 +9,6 @@ import urllib2
 import string
 
 
-
-def geturl(str):
-	return urllib2.urlopen(str).geturl()
 
 def curl(str):
 	return urllib2.urlopen(str).read()
